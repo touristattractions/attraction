@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        header {
+            background-color: #1abc9c;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+            margin-top: 2%;
+        }
+       
+        nav {
+            background-color: #16a085;
+            text-align: center;
+            padding: 10px 0;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        img{
+            padding: 3px;
+            width: 250px;
+            height: 250px;
+        }
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 5px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        /* Responsive Styling */
+        @media only screen and (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Explore the Philippines</h1>
+        </header>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="attractions.html">Attractions</a>
+        </nav>
+        <h1>MAYON VOLCANO</h1>
+        <img src="./images/mayon1.jpg" alt="coron 1">
+        <img src="./images/mayon2.jpg" alt="coron 2">
+        <img src="./images/mayon3.jpg" alt="coron 3">
+        <img src="./images/mayon4.jpg" alt="coron 4">
+        <img src="./images/mayon5.jpg" alt="coron 5">
+        <img src="./images/mayon6.jpg" alt="coron 6">
+        <img src="./images/mayon7.jpg" alt="coron 7">
+        <img src="./images/mayon8.jpg" alt="coron 8">
+        <img src="./images/mayon9.jpg" alt="coron 9">
+        <img src="./images/mayon10.jpg" alt="coron 10">
+</body>
+</html>
